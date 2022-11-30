@@ -43,7 +43,7 @@ const Navbar = () => {
       />
       <NavToggle toggle={() => toggleOpen()} />
       <motion.ul
-        className="flex flex-col justify-center gap-7 p-8 absolute top-[250px] w-[160]"
+        className="flex flex-col justify-center gap-7 p-6 absolute top-[250px] w-[160]"
         variants={sideNavItems}
       >
         <NavbarItem url={"/"} icon={<FaHome />} />
