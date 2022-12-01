@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const Welcome = () => {
   return (
     <div className="bg-black">
-      <div className="max-w-screen-lg mx-auto">
+      <div className="max-w-[71.25rem] mx-auto">
         <div className="grid place-content-center h-screen">
           <div className="flex flex-col items-center gap-y-3">
             <ImageSVG width={400} height={400} />

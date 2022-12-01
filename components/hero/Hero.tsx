@@ -21,7 +21,7 @@ const Hero = () => {
 
   return (
     <div>
-      <div className="lg:max-w-screen-lg mx-auto">
+      <div className="max-w-[71.25rem] mx-auto">
         <div className="py-36 px-4 md:px-8">
           <h1 className="text-pink mb-2 text-sm">Hi, my name is</h1>
           <h2 className="text-white text-2xl mb-1 md:text-4xl lg:mb-2 lg:text-5xl">
