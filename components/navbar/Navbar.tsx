@@ -33,12 +33,12 @@ const Navbar = () => {
 
   return (
     <motion.nav
-      className="absolute top-0 bottom-0 w-[100px] z-10"
+      className="fixed top-0 bottom-0 w-[100px] z-10"
       initial={false}
       animate={isOpen ? "open" : "closed"}
     >
       <motion.div
-        className="bg-white absolute top-0 left-0 bottom-0 w-[100px]"
+        className="bg-white fixed top-0 left-0 bottom-0 w-[100px]"
         variants={sideNavbar}
       />
       <NavToggle toggle={() => toggleOpen()} />
