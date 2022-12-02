@@ -10,6 +10,8 @@ const Welcome = () => {
         <div className="flex flex-col items-center gap-y-3">
           <ImageSVG width={400} height={400} />
           <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
             initial={{ opacity: 0 }}
             animate={{
               opacity: 1,
@@ -20,7 +22,7 @@ const Welcome = () => {
             }}
           >
             <Link
-              className="bg-pink text-white tracking-wide py-1 px-5 hover:duration-300 hover:ease-linear hover:bg-white hover:text-pink md:text-lg"
+              className="bg-pink text-white tracking-wide py-1 px-5"
               href="/home"
             >
               Enter
