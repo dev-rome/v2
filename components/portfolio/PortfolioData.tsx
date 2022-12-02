@@ -1,7 +1,7 @@
 export const PortfolioData = [
   {
     id: 1,
-    src: "/public/assets/images/video-game-trivia.png",
+    src: "/public/images/video-game-trivia.png",
     alt: "Video Game Trivia",
     title: "Video Game Trivia",
     // linkOne: "https://dev-rome.github.io/",
@@ -10,7 +10,7 @@ export const PortfolioData = [
   },
   {
     id: 2,
-    src: "/public/assets/images/tenant-estate.png",
+    src: "/public/images/tenant-estate.png",
     alt: "Tenant Estate",
     title: "Tenant Estate",
     // linkOne: "https://enigmatic-anchorage-66839.herokuapp.com/buy",
@@ -19,7 +19,7 @@ export const PortfolioData = [
   },
   {
     id: 3,
-    src: "/public/assets/images/profolio.png",
+    src: "/public/images/profolio.png",
     alt: "Pro-folio",
     title: "Pro-folio",
     // linkOne: "https://pro-folio-njt.netlify.app/",
@@ -28,7 +28,7 @@ export const PortfolioData = [
   },
   {
     id: 4,
-    src: "/public/assets/images/gameoverflow.png",
+    src: "/public/images/gameoverflow.png",
     alt: "Gameoverflow",
     title: "Gameoverflow",
     // linkOne: "https://guarded-plateau-67104.herokuapp.com/",
@@ -37,7 +37,7 @@ export const PortfolioData = [
   },
   {
     id: 5,
-    src: "/public/assets/images/interactive-rating.png",
+    src: "/public/images/interactive-rating.png",
     alt: "Interactive Rating Component",
     title: "Interactive Rating Component",
     // linkOne: "https://mellow-arithmetic-b92b64.netlify.app/",
@@ -46,7 +46,7 @@ export const PortfolioData = [
   },
   {
     id: 6,
-    src: "/public/assets/images/product-preview-card.png",
+    src: "/public/images/product-preview-card.png",
     alt: "Product Preview Card Component",
     title: "Product Preview Card Component",
     // linkOne: "https://rainbow-unicorn-b60bf9.netlify.app/",
