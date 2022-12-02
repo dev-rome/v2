@@ -2,7 +2,7 @@ import AboutTechList from "./AboutTechList";
 import { AboutTechData } from "./AboutTech";
 import { FaAngleRight } from "react-icons/fa";
 import Image from "next/image";
-import SelfImage from "/public/images/jh.jpg";
+import SelfImage from "../../public/images/jh.jpg";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const About = () => {
