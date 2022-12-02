@@ -1,6 +1,11 @@
 import { motion } from "framer-motion";
 
-const ImageSVG = ({ width, height }: { width: number; height: number }) => {
+interface ImageProps {
+  width: number;
+  height: number;
+}
+
+const ImageSVG = ({ width, height }: ImageProps) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
